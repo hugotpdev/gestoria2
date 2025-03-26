@@ -12,6 +12,7 @@
                 <p class="text-sm text-gray-600 mt-4">Descripción: {{ $property->description }}</p>
 
                 <div class="mt-4">
+                    <p class="text-sm text-gray-600">Nombre de la propiedad: <span class="font-semibold">{{ $property->title }}</span></p>
                     <p class="text-sm text-gray-600">Habitaciones: {{ $property->bedrooms }}</p>
                     <p class="text-sm text-gray-600">Baños: {{ $property->bathrooms }}</p>
                     <p class="text-sm text-gray-600">Área: {{ number_format($property->area, 2) }} m²</p>
